@@ -10,11 +10,43 @@ mainVisual
 
 .siteTitle {
     margin-top: 172px;
+    padding: 16px 0 16px 10%;
     background-color: rgba(151, 133, 116, 0.3);
     width: 100%;
-    height: 150px;
     color: #403D3D;
     font-family: 'Aboreto';
     font-size: 3.2rem;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    position: relative;
+}
+
+.siteTitle__welcome {
+    font-size: 2rem;
+}
+
+.siteTitle__sub {
+    margin: 4px 0 0 46px;
+    font-size: 1.2rem;
+}
+
+.siteTitle__sub::before {
+    content: "";
+    border: solid 0.8px #403D3D;
+    width: 40px;
+    position: absolute;
+    top: 136px;
+    left: 10%;
+}
+
+.mainImg {
+    margin: 72px 0 0 auto;
+    width: 252px;
+    height: 320px;
+}
+
+
+/* mainVisual pc */
+@media screen and (min-width:769px) {
 
 }
