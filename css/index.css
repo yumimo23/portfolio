@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* ===============================
+mainVisual
+================================== */
+.mainVisual {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.siteTitle {
+    margin-top: 172px;
+    background-color: rgba(151, 133, 116, 0.3);
+    width: 100%;
+    height: 150px;
+    color: #403D3D;
+    font-family: 'Aboreto';
+    font-size: 3.2rem;
+
+}
