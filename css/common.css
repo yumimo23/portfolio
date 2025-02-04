@@ -25,12 +25,12 @@ img {
 header
 ================================== */
 .header {
-    height: 68px;
+    padding: 20px 5.3%;
+
 }
 
 .header__topic,
 .nav__header {
-    padding: 20px 5.3%;
     display: flex;
     justify-content: space-between;
     align-items:last baseline;
@@ -42,7 +42,7 @@ header
 /* todo ここメニューをアニメーションにする */
 /* JS　activeつけてから確認 */
 /* .nav初期設定 */
-.nav {
+/* .nav {
     background: rgba(255, 255, 255, 0.9);
     width: 100%;
     height: 100vh;
@@ -77,9 +77,65 @@ header
 
 .nav.active {
     transform: translateX(0);
-}
+} */
 
 /* header pc */
+@media screen and (min-width:769px) {
+    .header {
+        padding: 36px 4.1%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__topic,
+    .nav__header {
+        font-size: 1.6rem;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+        padding: 0;
+        position: static;
+        transform: translate(0);
+    }
+
+    .header__btn,
+    .nav__header {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+    }
+
+    .nav__item {
+        background-color: #CDB8A3;
+        box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
+        width: 78px;
+        height: 30px;
+        border-radius: 20px;
+        color: #F9F9F9;
+        font-family: 'Aboreto';
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+}
+
+
+
+
+/* ===============================
+footer
+================================== */
+
+/* footer pc */
 @media screen and (min-width:769px) {
 
 }
