@@ -181,23 +181,145 @@ works
     padding-bottom: 3px;
 }
 
-
-
-
-
-
-
 /* works pc */
 @media screen and (min-width:769px) {
+    .section--works {
+        padding: 133px 12.5%;
+    }
+    
+    .section__title::before {
+        border: solid 1px #403D3D;
+        width: 56px;
+        top: 20px;
+    }
+    
+    .section__title {
+        font-size: 3.6rem;
+        margin-right: 18px;
+    }
+    
+    .section__subtitle {
+        font-size: 1.4rem;
+    }
 
+    .works__wrapper {
+        padding: 0 10.1% 0;
+    }
+    
+    /* todo worksごとにテキストエリアのクラス名分ける？ */
+    .works01,
+    .works02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 126px;
+    }
+
+    .works02 {
+        flex-direction: row-reverse;
+    }
+    
+    .works__img img {
+        display: block;
+        width: 79.6%;
+    }
+    
+    .works__txtArea {
+        width: 100%;
+    }
+    
+    .works__webIcon {
+        width: 58px;
+        height: 20px;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+    
+    .works__title {
+        font-size: 2.4rem;
+    }
+    
+    .works__description {
+        font-size: 1.4rem;
+    }
+    
+    .works__worktype {
+        font-size: 1.2rem;
+        margin-top: 8px;
+    }
+    
+    /* todo エリアの右端に寄せたい */
+    .works__btn {
+        font-size: 1.3rem;
+        margin-top: 36px;
+        padding-bottom: 3px;
+    }
+    
 }
 
 /* ===============================
 about
 ================================== */
+.section--about {
+    padding: 80px 0;
+}
+
+.about__wrapper {
+    padding: 0 10.6%;
+}
+
+.about__img {
+    margin: 36px auto 0;
+}
+
+.about__name {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 36px;
+}
+
+.about__nameKanji {
+    font-size: 2rem;
+    line-height: 1;
+    margin-right: 6px;
+}
+
+.about__nameKana {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.about__description {
+    font-size: 1.4rem;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
+.about__btn {
+    display: block;
+    width: 208px;
+    height: 48px;
+    border: 1px solid #978574;
+    color: #978574;
+    text-align: center;
+    font-family: 'Aboreto';
+    font-size: 1.3rem;
+    line-height: 48px;
+    margin: 36px auto 0;
+
+}
 
 /* about pc */
 @media screen and (min-width:769px) {
+    .section--about {
+        padding: 133px 12.5%;
+    }
+    
+    .about__wrapper {
+        padding: 0 10.1% 0;
+    }
+
 
 }
 
