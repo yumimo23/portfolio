@@ -219,10 +219,18 @@ works
         flex-direction: row-reverse;
     }
     
-    .works__img img {
+    .works01__img {
         display: block;
-        width: 79.6%;
+        width: 49.5%;
+        margin-right: 84px;
     }
+
+    .works02__img {
+        display: block;
+        width: 49.5%;
+        margin-left: 84px;
+    }
+
     
     .works__txtArea {
         width: 100%;
@@ -307,7 +315,6 @@ about
     font-size: 1.3rem;
     line-height: 48px;
     margin: 36px auto 0;
-
 }
 
 /* about pc */
@@ -318,8 +325,27 @@ about
     
     .about__wrapper {
         padding: 0 10.1% 0;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
     }
 
+    .about__txt {
+        width: 54.3%;
+    }
 
+    .about__nameKanji {
+        font-size: 2.4rem;
+        margin-right: 8px;
+    }
+
+    .about__nameKana {
+        font-size: 1.4rem;
+    }
+
+    .about__btn {
+        margin: 56px 0 0 0;
+    }
 }
 
