@@ -118,10 +118,23 @@
                         </p>
                     </li>
 
-                    <li class="works__item">
+                    <!-- todo 日にち期間変える -->
+                    <li class="works__itemPeriod">
                         <h3 class="works__itemTitle">制作期間</h3>
-                        <!-- ここまだ -->
-                        <p class="works__itemTxt">企画 / 情報設計 / デザイン / コーディング </p>
+                        <div>
+                            <div class="works__period"> 
+                                <p class="works__itemTxt">企画 / 情報設計</p>
+                                <p class="works__itemTxt">4週間</p>
+                            </div>
+                            <div class="works__period"> 
+                                <p class="works__itemTxt">デザイン</p>
+                                <p class="works__itemTxt">3週間</p>
+                            </div>
+                            <div class="works__period"> 
+                                <p class="works__itemTxt">コーディング</p>
+                                <p class="works__itemTxt">4週間</p>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="works__item">
@@ -132,16 +145,34 @@
                 </ul>
             </div>
 
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="works__scrollImg">
+                <img class="works__scrollPC" src="assets/images/work_galleryPC.png" alt="サイトPC版">
+                <img class="works__scrollSP" src="assets/images/work_gallerySP.png" alt="サイトSP版">
             </div>
 
         </section>
 
-        <div>
-            <a href=""></a>
-            <a href=""></a>
+        <!-- btn -->
+        <div class="works__btnArea">
+            <a class="backBtn" href="index.html#works">
+                <div class="works__btnFlex">
+                    <div class="works__btnLeft">
+                        <img class="works__backBtnArrow" src="assets/images/backbtnArrow.svg" alt="ボタンの矢印">
+                        <p class="works__btnTxt">BACK</p>
+                    </div>
+                    <p class="works__btnRight">制作物一覧へ</p>
+                </div>
+            </a>
+
+            <a class="nextBtn" href="works-portforio.html">
+                <div class="works__btnFlex">
+                    <div class="works__btnLeft">
+                        <p class="works__btnTxt">NEXT</p>
+                        <img class="works__nextBtnArrow" src="assets/images/nextbtnArrow.svg" alt="ボタンの矢印">
+                    </div>
+                    <p class="works__btnRight">次の作品へ</p>
+                </div>
+            </a>
         </div>
     </main>
 

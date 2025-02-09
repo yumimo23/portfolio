@@ -72,9 +72,10 @@
                     <p class="works__webIcon">Website</p>
                     <h2 class="works__title">Gallery Amas様公式サイト</h2>
                     <p class="works__date">2024.12</p>
-                    <p class="works__link">URL
-                        <a href="https://gallery.echelle-totalbeauty.com/" target="_blank" rel="noopener">https://gallery.echelle-totalbeauty.com/</a>
-                    </p>    
+                    <div class="works__link">
+                        <p class="works__linkTitle">URL</p>
+                        <a  class="works__linkUrl" href="https://gallery.echelle-totalbeauty.com/" target="_blank" rel="noopener">https://gallery.echelle-totalbeauty.com/</a>
+                    </div>  
                 </div>
 
                 <p class="works__description">
@@ -106,9 +107,9 @@
                         <h3 class="works__itemTitle">情報設計</h3>
                         <p class="works__itemTxt">
                             ①既存サイトはギャラリーでの展示の様子が載っておらず利用用途が分かりづらかったため、利用事例のページを新設。
-                            実際の展示写真を多く掲載することで、ギャラリーの雰囲気や利用・展示イメージが湧くようにしました
+                            実際の展示写真を多く掲載することで、ギャラリーの雰囲気や利用・展示イメージが湧くようにしました。<br>
                             ②ギャラリーの強みとして挙がった「はじめての方でも使いやすいギャラリー」をアピールするため、利用の流れや備品の案内を充実させ、
-                            サイトを見たユーザーが「私にも簡単に展示ができるかも」と思ってもらえるようにしました
+                            サイトを見たユーザーが「私にも簡単に展示ができるかも」と思ってもらえるようにしました。
                         </p>
                     </li>
 
@@ -117,14 +118,26 @@
                         <p class="works__itemTxt">
                             メインビジュアルはギャラリーのコンセプトである「人との繋がり」を円で表現しました。また、大きな円の縁に沿ってギャラリー内装などの
                             小さな円が浮き出てくるアニメーションをつけて一目で印象づけられるようにしています。<br>
-                            既存サイトが黒白赤の配色だったのに対して、ギャラリーの白くて明るい内装の雰囲気が伝わる配色を意識しました
+                            既存サイトが黒白赤の配色だったのに対して、ギャラリーの白くて明るい内装の雰囲気が伝わる配色を意識しました。
                         </p>
                     </li>
 
-                    <li class="works__item">
+                    <li class="works__itemPeriod">
                         <h3 class="works__itemTitle">制作期間</h3>
-                        <!-- ここまだ -->
-                        <p class="works__itemTxt">企画 / 情報設計 / デザイン / コーディング </p>
+                        <div>
+                            <div class="works__period"> 
+                                <p class="works__itemTxt">企画 / 情報設計</p>
+                                <p class="works__itemTxt">4週間</p>
+                            </div>
+                            <div class="works__period"> 
+                                <p class="works__itemTxt">デザイン</p>
+                                <p class="works__itemTxt">3週間</p>
+                            </div>
+                            <div class="works__period"> 
+                                <p class="works__itemTxt">コーディング</p>
+                                <p class="works__itemTxt">4週間</p>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="works__item">
@@ -133,7 +146,7 @@
                     </li>
 
                     <li class="works__item">
-                        <h3 class="works__itemTitle">振り返りと今後の展望</h3>
+                        <h3 class="works__itemTitle">制作過程と<br>振り返り</h3>
                         <p class="works__itemTxt">
                             こちらの作品では初めてクライアント探しからサーバーアップまでの全行程を一人で行いました。<br>
                             情報設計にあたっては複数回のヒアリングにてクライアント様の強みや課題、ターゲットのすり合わせを行ったほか、ペルソナを設定しペルソナの悩みを解決できるようなコンテンツ提案も行いました。<br>
@@ -144,16 +157,34 @@
                 </ul>
             </div>
 
-            <div>
-                <img src="assets/images/work_galleryPC.png" alt="サイトPC版">
-                <img src="assets/images/work_gallerySP.png" alt="サイトSP版">
+            <div class="works__scrollImg">
+                <img class="works__scrollPC" src="assets/images/work_galleryPC.png" alt="サイトPC版">
+                <img class="works__scrollSP" src="assets/images/work_gallerySP.png" alt="サイトSP版">
             </div>
 
         </section>
 
-        <div>
-            <a href=""></a>
-            <a href=""></a>
+        <!-- btn -->
+        <div class="works__btnArea">
+            <a class="backBtn" href="index.html#works">
+                <div class="works__btnFlex">
+                    <div class="works__btnLeft">
+                        <img class="works__backBtnArrow" src="assets/images/backbtnArrow.svg" alt="ボタンの矢印">
+                        <p class="works__btnTxt">BACK</p>
+                    </div>
+                    <p class="works__btnRight">制作物一覧へ</p>
+                </div>
+            </a>
+
+            <a class="nextBtn" href="works-portforio.html">
+                <div class="works__btnFlex">
+                    <div class="works__btnLeft">
+                        <p class="works__btnTxt">NEXT</p>
+                        <img class="works__nextBtnArrow" src="assets/images/nextbtnArrow.svg" alt="ボタンの矢印">
+                    </div>
+                    <p class="works__btnRight">次の作品へ</p>
+                </div>
+            </a>
         </div>
     </main>
 
