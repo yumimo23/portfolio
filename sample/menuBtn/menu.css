@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* 
+--------------------------------------------------------
+openbtn
+-------------------------------------------------------- 
+*/
+.openbtn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: #10568f;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.openbtn span {
+    display: inline-block;
+    position: absolute;
+    width: 45%;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+    background: #fff;
+    transition: all 0.4s;
+}
+.openbtn span:nth-of-type(1) {
+    top: 17px;
+}
+.openbtn span:nth-of-type(2) {
+    top: 25px;
+}
+.openbtn span:nth-of-type(3) {
+    top: 33px;
+}
+
+.openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 14px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 40%;
+}
+.openbtn.active span:nth-of-type(2) {
+    opacity: 0;
+}
+.openbtn.active span:nth-of-type(3) {
+    top: 30px;
+    left: 14px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 40%;
+}
+
+
