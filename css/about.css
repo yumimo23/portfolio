@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* ===============================
+about
+================================== */
+.page__title {
+    padding: 80px 0 64px;
+    text-align: center;
+    font-family: 'Aboreto';
+    font-size: 2.4rem;
+}
+
+.about__wrapper {
+    padding: 0 10.6%;
+}
+
+.about__img {
+    display: block;
+    width: 66.8%;
+    margin: 0 auto;
+}
+
+.about__name {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+.about__nameKanji {
+    font-size: 2rem;
+    line-height: 1;
+    margin-right: 6px;
+}
+
+.about__nameKana {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.about__description {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* about pc */
+@media screen and (min-width:769px) {
+
+}
+
+/* ===============================
+skills
+================================== */
+.section--skills {
+    padding: 80px 5.3% 0;
+}
+
+.skills__title {
+    text-align: center;
+    font-family: 'Aboreto';
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.skills__title::after {
+    content: '';
+    display: block;
+    margin: 12px auto 0;
+    border-bottom: 1px solid #CDB8A3;
+    width: 100%;
+}
+
+.skills__design,
+.skills__coding {
+    margin-top: 40px;
+}
+
+.skills__designTitle,
+.skills__codingTitle {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0 12%;
+    position: relative;
+}
+
+.skills__designTitle::before,
+.skills__codingTitle::before {
+content: "";
+    border: solid 0.8px #403D3D;
+    width: 32px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.skills__txt {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+.skills__toolTitle {
+    font-size: 1.2rem;
+    margin-top: 24px;
+}
+
+.skills__toolTxt {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
