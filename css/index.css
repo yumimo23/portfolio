@@ -95,7 +95,7 @@ works
 }
 
 .section__topic {
-    padding: 0 10.6%;
+    padding-left: 40px;
     display: flex;
     align-items: flex-end;
     position: relative;
@@ -185,6 +185,10 @@ works
 @media screen and (min-width:769px) {
     .section--works {
         padding: 133px 12.5%;
+    }
+
+    .section__topic {
+        padding-left: 110px;
     }
     
     .section__title::before {
