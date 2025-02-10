@@ -101,6 +101,7 @@ content: "";
 }
 
 .skills__toolTitle {
+    color: #CDB8A3;
     font-size: 1.2rem;
     margin-top: 24px;
 }
@@ -109,3 +110,96 @@ content: "";
     font-size: 1.2rem;
     margin-top: 10px;
 }
+
+/* ===============================
+skills
+================================== */
+.section--strengths {
+    padding: 80px 5.3% 100px;
+}
+
+.strengths__title {
+    text-align: center;
+    font-family: 'Aboreto';
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.strengths__title::after {
+    content: '';
+    display: block;
+    margin: 12px auto 0;
+    border-bottom: 1px solid #CDB8A3;
+    width: 100%;
+}
+
+.strengths__itemTopics {
+    display: flex;
+    align-items: center;
+}
+
+.strengths__item {
+    margin-top: 40px;
+}
+
+.strengths__num {
+    font-family: 'Aboreto';
+    font-size: 2rem;
+    line-height: 1;
+    margin-right: 12px;
+}
+
+.strengths__itemTitle {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.strengths__txt {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-top: 12px;
+}
+
+/* ===============================
+Btn
+================================== */
+.nextBtn {
+    display: block;
+    padding: 56px 0;
+    color: #F9F9F9;
+}
+
+.nextBtn {
+    background-color: #978574;
+}
+
+.works__btnFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works__btnLeft {
+    display: flex;
+    align-items: center;
+}
+
+.works__btnTxt {
+    font-family: 'Aboreto';
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.works__btnRight {
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 40px;
+}
+
+.works__nextBtnArrow {
+    margin-left: 12px;
+}
+
+
+
+

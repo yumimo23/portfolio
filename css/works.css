@@ -192,14 +192,12 @@ works
     .works__itemPeriod {
         display: flex;
         align-items:first baseline;
-        margin: 40px 0 0 0;
+        margin-top: 40px;
     }
 
     .works__period {
         width: 300px;
     }
-
-
 }
 
 /* ===============================
@@ -220,11 +218,10 @@ Btn
     background-color: #978574;
 }
 
-
 .works__btnFlex {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .works__btnLeft {
@@ -254,5 +251,21 @@ Btn
 
 /* Btn pc */
 @media screen and (min-width:769px) {
+    .works__btnArea {
+        display: flex;
+        padding: 0 12.5%;
+    }
 
+    .backBtn,
+    .nextBtn {
+        width: 50%;
+    }
+
+    .works__btnTxt {
+        font-size: 1.6rem;
+    }
+    
+    .works__btnRight {
+        font-size: 2rem;
+    }
 }
