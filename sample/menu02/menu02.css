@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    overflow: hidden;
+    }
+
+#menu{
+    /* ×とか＝の位置固定 */
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+
+    /* 棒の大きさを決めるBOXを作る */
+    width: 30px;
+    height: 30px;
+
+    /* naviの×とか＝の棒を中央に集めて形を作る */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: .5s;
+    z-index: 10;
+}
+
+/* 1本目の棒 */
+.menu-line1{
+
+/* 30pxに対して */
+    width: 100%;
+
+    height: 2px;
+    background: #fff;
+    transition: .6s;
+}
+
+   /* 2本目の棒 */
+    .menu-line2{
+
+    /* 30pxに対して */
+    width: 80%;
+
+    height: 2px;
+
+    /* 棒と棒の間の余白 */
+    margin-top: .7rem;
+
+    background: #fff;
+
+     /* 棒の動く速度（2本とも同じ秒数にする） */
+    transition: .6s;
+}
+
+/* JS用のclass 棒が回転するやつ*/
+.rotate{
+    transform: rotateZ(180deg)
+}
+
+.rotate1{
+    background: #212121;
+    transform: rotateZ(45deg);
+}
+.rotate2{
+    background: #212121;
+    width: 100%;
+    transform:  translate(0,-0.8rem) rotateZ(-45deg);
+}
+
+
+.nav-page1{
+    /* 左の白い画面の位置固定 */
+    position: fixed ;
+    top:0 ;
+    left: 0;
+
+    background: whitesmoke;
+    width: 60%;
+    height: 70vh;
+
+    /* menuの各ボタンの位置揃え */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #212121;
+
+    /* JSでtransformのclass名が付く前はy縦軸がマイナスで画面から隠してる */
+    transform: translate(0,-100%);
+    transition: .5s;
+}
+
+.nav-page1 span{
+    padding: 1rem;
+}
+.nav-page2{
+    /* 右の白い画面の位置固定 */
+    position: fixed;
+    top:0 ;
+    left: 60%;
+
+    background: whitesmoke;
+    width: 40%;
+    height: 70vh;
+
+    /* 左右の白い画面の秒数をずらしている */
+    transition: .8s;
+    transform: translate(0,-100%);
+}
+
+/* JSのクラスがついたあとは0,0で画面に現れる　 */
+.transform{
+    transform: translate(0,0);
+}
