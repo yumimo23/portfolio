@@ -25,12 +25,10 @@ img {
 header
 ================================== */
 .header {
-    /* padding: 20px 5.3%; */
     height: 68px;
 }
 
-.header__topic,
-.nav__header {
+.header__topic {
     padding: 20px 5.3%;
     display: flex;
     justify-content: space-between;
@@ -48,7 +46,7 @@ header
     justify-content: center;
     align-items: center;
     transition: .5s;
-    z-index: 1000;
+    z-index: 999;
 }
 
 /* 1本目の棒 */
@@ -83,10 +81,6 @@ header
     transform:  translate(0,-0.8rem) rotateZ(-45deg);
 }
 
-
-
-/* todo ここメニューをアニメーションにする */
-/* JS　activeつけてから確認 */
 /* .nav初期設定 */
 .nav {
     background: rgba(255, 255, 255, 0.9);
@@ -117,7 +111,7 @@ header
     opacity: 0.6;
 }
 
-.nav__itemSP  a {
+.nav__itemSP a {
     display: block;
 }
 
@@ -128,38 +122,45 @@ header
 /* header pc */
 @media screen and (min-width:769px) {
     .header {
+        height: 110px;
         padding: 36px 4.1%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     
-    .header__topic,
-    .nav__header {
+    .header__topic {
         font-size: 1.6rem;
+        padding: 0;
     }
 
     .nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         background: transparent;
         padding: 0;
         position: static;
         transform: translate(0);
+        height: auto;
     }
 
     .menu,
     .nav__header,
-    .nav__listSP  {
+    .nav__listSP {
         display: none;
     }
 
-    /* .nav__list {
+    .nav__listPC {
         display: flex;
-    } */
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        gap: 0 40px;
+        margin: 0;
+    }
 
-    /* .nav__item {
+    .nav__itemPC {
         background-color: #CDB8A3;
         box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
         width: 78px;
@@ -171,8 +172,8 @@ header
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 40px;
-    } */
+        margin: 0;
+    }
 }
 
 /* ===============================
@@ -298,3 +299,9 @@ footer
 
 /* todo navlistとitemのクラス名をへったーとフッターで分ける
 margin gap整える */
+
+
+/* JSの考え方
+動きをビジュアルでイメージにして言葉にする、
+必要なパーツをcssで作る
+JSでcssのクラス */
