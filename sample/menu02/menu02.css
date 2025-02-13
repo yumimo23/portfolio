@@ -60,15 +60,16 @@ body{
 }
 
 .rotate1{
-    background: #212121;
+    /* background: #212121; */
+    background-color: #fff;
     transform: rotateZ(45deg);
 }
 .rotate2{
-    background: #212121;
+    /* background: #212121; */
+    background-color: #fff;
     width: 100%;
     transform:  translate(0,-0.8rem) rotateZ(-45deg);
 }
-
 
 .nav-page1{
     /* 左の白い画面の位置固定 */

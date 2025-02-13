@@ -38,7 +38,7 @@ header
     font-size: 1.2rem;
 }
 
-.menu {
+#menu {
     width: 32px;
     height: 8px;
     display: flex;
@@ -236,14 +236,26 @@ footer
     align-items: center;
 }
 
+.nav__footeritem:hover {
+    opacity: 0.6;
+}
+
 .nav__fotterCopy {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
     margin-top: 76px;
 }
 
 .copy {
     font-family: 'Aboreto';
+    margin-right: 40px;
+}
+
+.nav__fotterUpBtn {
+    display: block;
+    width: 46px;
+    height: 46px;
 }
 
 
@@ -288,12 +300,10 @@ footer
         margin-top: 34px;
     }
     
-    /* todo ページアップボタン書き出し */
-    .copy {
-        
+    .nav__fotterUpBtn {
+        width: 56px;
+        height: 56px;
     }
-    
-    
 }
 
 
