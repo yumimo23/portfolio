@@ -145,7 +145,7 @@ header
         height: auto;
     }
 
-    .menu,
+    #menu,
     .nav__header,
     .nav__listSP {
         display: none;

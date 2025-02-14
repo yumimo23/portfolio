@@ -282,7 +282,9 @@ about
 }
 
 .about__img {
-    margin: 36px auto 0;
+    display: block;
+    margin: 64px auto 0;
+    width: 70%;
 }
 
 .about__name {
@@ -332,7 +334,15 @@ about
         margin-top: 80px;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about__img {
+        margin: 0;
+        width: 33%;
+        min-width: 240px;
+        object-fit: contain;
     }
 
     .about__txt {
