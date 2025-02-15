@@ -93,16 +93,14 @@ works
 }
 
 /* todo ここやり方調べる　 */
-.works__scrollPC {
-    overflow: hidden;
+/* .works__scrollPC {
     width: 335px;
     height: 229px;
     object-fit: cover;
     overflow-y: scroll;
+} */
 
-}
-
-.works__scrollSP {
+/* .works__scrollSP {
     overflow: hidden;
     width: 244px;
     height: 556px;
@@ -110,10 +108,22 @@ works
     overflow-y: scroll;
     display: block;
     margin: 50px auto 0;
-}
+} */
 
 /* works pc */
 @media screen and (min-width:769px) {
+
+    .works__base{
+        display: flex;
+    }
+
+    .works__scrollImg {
+        max-width: 800px;
+        max-height: 800px;
+        overflow-y: scroll;
+    }
+
+
     .page__title {
         padding: 130px 0 100px;
         font-size: 3.2rem;

@@ -238,6 +238,7 @@ works
     
     .works__txtArea {
         width: 100%;
+        position: relative;
     }
     
     .works__webIcon {
@@ -261,11 +262,12 @@ works
         margin-top: 8px;
     }
     
-    /* todo エリアの右端に寄せたい */
     .works__btn {
         font-size: 1.3rem;
         margin-top: 36px;
         padding-bottom: 3px;
+        position: absolute;
+        right: 0;
     }
     
 }

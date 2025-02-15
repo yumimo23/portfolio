@@ -72,11 +72,9 @@ header
 }
 
 .rotate1 {
-    background-color: #CDB8A3;
     transform: rotateZ(45deg);
 }
 .rotate2 {
-    background-color: #CDB8A3;
     width: 100%;
     transform:  translate(0,-0.8rem) rotateZ(-45deg);
 }
@@ -305,10 +303,6 @@ footer
         height: 56px;
     }
 }
-
-
-/* todo navlistとitemのクラス名をへったーとフッターで分ける
-margin gap整える */
 
 
 /* JSの考え方
