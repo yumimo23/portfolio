@@ -113,10 +113,12 @@ works
 /* works pc */
 @media screen and (min-width:769px) {
 
-    .works__base{
+    .works__scrollWrapper {
         display: flex;
     }
 
+    /* todo SPとPCでHTMLのクラス名分ける、
+    それぞれ高さとか設定 */
     .works__scrollImg {
         max-width: 800px;
         max-height: 800px;

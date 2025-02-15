@@ -40,8 +40,12 @@
             <a href="index.html">
                 YUMI<br>UEMOTO
             </a>
-            <!-- ハンバーガーメニュー素材つける！ -->
-            <img class="header__btn" src="" alt="ハンバーガーメニュー">
+
+            <!-- ハンバーガーメニュー -->
+            <div id="menu">
+                <div class="menu-line1"></div>
+                <div class="menu-line2"></div>
+            </div>
         </div>
 
         <nav class="nav">
@@ -51,13 +55,12 @@
                         YUMI<br>UEMOTO
                     </a>
                 </p>
-                <img class="nav__btn" src="assets/images/common/close.svg" alt="閉じる">
             </div>
     
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html">TOP</a></li>
-                <li class="nav__item"><a href="index.html#works">WORKS</a></li>
-                <li class="nav__item"><a href="about.html">ABOUT</a></li>
+            <ul class="nav__listSP nav__listPC">
+                <li class="nav__itemSP nav__itemPC"><a href="index.html">TOP</a></li>
+                <li class="nav__itemSP nav__itemPC"><a href="index.html#works">WORKS</a></li>
+                <li class="nav__itemSP nav__itemPC"><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
     </header>
@@ -198,10 +201,14 @@
         </div>
 
         <div class="nav__fotterCopy">
-            <p class="copy"><small>&copy;2024 YUMI UEMOTO</small></p>
-            <img id= "nav__fotterUpBtn" class="nav__fotterUpBtn" src="" alt="ページアップボタン">    
+            <small class="copy">&copy;2024 YUMI UEMOTO</small>
+            <img id="nav__fotterUpBtn" class="nav__fotterUpBtn" src="assets/images/upBtn.png" alt="ページアップボタン">    
         </div>
 
     </footer>
+
+    <!-- js -->
+    <script src="assets/js/header.js" defer></script>
+
 </body>
 </html>
