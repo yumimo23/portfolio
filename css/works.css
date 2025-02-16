@@ -88,9 +88,47 @@ works
     justify-content: space-between;
 }
 
-.works__scrollImg {
-    padding: 80px 5.3%;
+.works__scrollTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.works__scrollDown {
+    text-align: center;
+    font-family: 'Aboreto';
+    font-size: 1.2rem;
+    margin-right: 4px;
+}
+
+.works__scrollTriangle {
+    display: block;
+    width: 10px;
+    height: 9px;
+}
+
+.works__scrollWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 5.3% 80px;
+}
+
+.works__scrollPC {
+    max-width: 400px;
+    height: 254px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
+}
+
+.works__scrollSP {
+    max-width: 230px;
+    height: 480px;
+    overflow-y: scroll;
+    margin: 40px auto 0;
+    box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
+}
+
 
 /* todo ここやり方調べる　 */
 /* .works__scrollPC {
@@ -112,20 +150,6 @@ works
 
 /* works pc */
 @media screen and (min-width:769px) {
-
-    .works__scrollWrapper {
-        display: flex;
-    }
-
-    /* todo SPとPCでHTMLのクラス名分ける、
-    それぞれ高さとか設定 */
-    .works__scrollImg {
-        max-width: 800px;
-        max-height: 800px;
-        overflow-y: scroll;
-    }
-
-
     .page__title {
         padding: 130px 0 100px;
         font-size: 3.2rem;
@@ -179,7 +203,7 @@ works
     }
     
     .works__list {
-        padding: 80px 10%;
+        padding: 80px 10% 40px;
     }
 
     .works__item {
@@ -210,6 +234,36 @@ works
     .works__period {
         width: 300px;
     }
+
+    .works__scrollDown {
+        font-size: 1.4rem;
+    }
+    
+    .works__scrollTriangle {
+        width: 12px;
+        height: 11px;
+    }
+    
+    .works__scrollWrapper {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0 60px;
+        padding: 20px 12.5% 180px;
+    }
+
+    .works__scrollPC {
+        max-width: 100%;
+        height: 580px;
+        margin: 0;
+    }
+    
+    .works__scrollSP {
+        max-width: 100%;
+        height: 580px;
+        margin: 0;
+    }
+
 }
 
 /* ===============================
