@@ -307,7 +307,7 @@ Btn
 .works__btnFlex {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .works__btnTxt {

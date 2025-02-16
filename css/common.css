@@ -178,7 +178,16 @@ header
 footer
 ================================== */
 .footer {
-    padding: 100px 10.6% 40px;
+    padding: 80px 10.6% 40px;
+}
+
+.footer::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100px;
+    background-color: #CDB8A3;
+    margin: 0 auto 40px;
 }
 
 .contact {
@@ -263,6 +272,11 @@ footer
         padding: 133px 12.5% 40px;
     }
     
+    .footer::before {
+        height: 160px;
+        margin: 0 auto 72px;
+    }
+
     .contact {
         width: 475px;
         height: 120px;
