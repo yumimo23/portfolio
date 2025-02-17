@@ -269,6 +269,10 @@ works
 /* ===============================
 Btn
 ================================== */
+.works__btnArea {
+    margin-bottom: 80px;
+}
+
 .backBtn,
 .nextBtn {
     display: block;

@@ -62,7 +62,7 @@ mainVisual
 /* 線のアニメーション部分 */
 .scrolldown::before {
     /* @keyframesで指定するアニメーション名 2sは時間 infiniteは無限ループ */
-    animation: scroll 2s infinite;
+    animation: scroll 2.5s infinite;
 
     content: "";
     width: 1px;
@@ -138,6 +138,19 @@ mainVisual
         top: 0;
         right: 12.5%;
     }
+
+    .scrolldown {
+        right: 14%;
+        bottom: 17.5%;    
+        font-size: 1.4rem;
+    }
+    
+    /* 線のアニメーション部分 */
+    .scrolldown::before {
+        height: 110px;
+        bottom: -124px;
+    }
+    
 }
 
 /* ===============================
