@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.box-013 {
+    /* boxの大きさ指定 */
+    max-width: 400px;
+
+    /* 画面の真ん中に配置 */
+    margin: 0 auto;
+
+    /* 周りの線 */
+    border: 2px solid #2589d0;
+    border-radius: 3px;
+}
+
+.box-013 span {
+    /* flexでタイトル帯作れる */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: .5em 0;
+    background-color: #2589d0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.box-013 p {
+    margin: 0;
+    padding: 1em 1.5em;
+    color: #333;
+}
