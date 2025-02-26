@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.heading-24 {
+    position: relative;
+
+    /* 背景の０１を入れた時に上にズレるから、上に余白あける */
+    padding-top: 1.5em;
+    color: #333333;
+}
+
+.heading-24::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    /* ０１を文字の後ろにする */
+    z-index: -1;
+    color: #d9f4ff;
+    font-size: 3em;
+    line-height: 1;
+
+    /* HTML 属性値にリンクした attr() 値 */
+    content: attr(data-number);
+
+    /* マウスオーバーでのクリックの指を消す */
+    pointer-events: none;
+}
