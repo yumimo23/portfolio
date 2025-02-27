@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.button-51 {
+    /* 下線に対して文字を中央配置 */
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: none;
+
+    /* 下線 */
+    border-bottom: 2px solid #e6edf3;
+
+    /* 背景を打ち消す */
+    background-color: transparent;
+
+    color: #333;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+/* 下線のスタイル */
+.button-51::after {
+    position: absolute;
+
+    /* 要素の下端からの距離 */
+    bottom: -3px;
+    /* 要素の左端からの距離 */
+    left: 0;
+
+    /* 下線を横方向に0倍、縦方向に1倍に変形（非表示にするため） */
+    transform: scale(0, 1);
+    /* transform: scaleX(0); */
+
+    /* 変形の原点を左中央に指定 */
+    transform-origin: center left;
+
+    /* 線の長さ太さ */
+    width: 100%;
+    height: 2px;
+
+    background-color: #2589d0;
+    content: '';
+
+    /* アニメーションの */
+    transition: transform .3s ease;
+}
+
+/* ホバーした際の下線の表示 */
+.button-51:hover::after {
+    /* 下線を横方向に1倍、縦方向に1倍に変形（下線を表示する） */
+    transform: scale(1, 1);
+    /* transform: scaleX(1); */
+}
