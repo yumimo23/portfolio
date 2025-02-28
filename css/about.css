@@ -236,8 +236,9 @@ strengths
 }
 
 .strengths__num {
+    color: #CDB8A3;
     font-family: 'Aboreto';
-    font-size: 2rem;
+    font-size: 2.4rem;
     line-height: 1;
     margin-right: 12px;
 }
@@ -281,7 +282,7 @@ strengths
 
 
     .strengths__num {
-        font-size: 2.4rem;
+        font-size: 2.6rem;
         margin-right: 12px;
     }
     
