@@ -405,7 +405,31 @@ about
     font-size: 1.3rem;
     line-height: 48px;
     margin: 36px auto 0;
+    position: relative;
 }
+
+.about__btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.about__btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    background-color: #978574;
+    content: '';
+    transition: 0.3s ease-in-out;
+
+}
+
+.about__btn:hover::before {
+    width: 100%;
+}
+
 
 /* about pc */
 @media screen and (min-width:769px) {
