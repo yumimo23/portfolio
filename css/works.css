@@ -129,25 +129,6 @@ works
     box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
 }
 
-
-/* todo ここやり方調べる　 */
-/* .works__scrollPC {
-    width: 335px;
-    height: 229px;
-    object-fit: cover;
-    overflow-y: scroll;
-} */
-
-/* .works__scrollSP {
-    overflow: hidden;
-    width: 244px;
-    height: 556px;
-    object-fit: cover;
-    overflow-y: scroll;
-    display: block;
-    margin: 50px auto 0;
-} */
-
 /* works pc */
 @media screen and (min-width:769px) {
     .page__title {
@@ -277,14 +258,28 @@ Btn
     display: block;
     padding: 56px 0;
     color: #F9F9F9;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
 }
 
 .backBtn {
     background-color: #CDB8A3;
+    border: 1px solid #CDB8A3;
+}
+
+.backBtn:hover {
+    background-color: #F9F9F9;
+    color: #CDB8A3;
 }
 
 .nextBtn {
     background-color: #978574;
+    border: 1px solid #978574;
+
+}
+
+.nextBtn:hover {
+    background-color: #F9F9F9;
+    color: #978574;
 }
 
 .works__btnFlex {

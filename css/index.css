@@ -372,20 +372,9 @@ about
 }
 
 .about__name {
-    display: flex;
-    align-items: flex-end;
-    margin-top: 36px;
-}
-
-.about__nameKanji {
     font-size: 2rem;
     line-height: 1;
-    margin-right: 6px;
-}
-
-.about__nameKana {
-    font-size: 1.1rem;
-    line-height: 1;
+    margin-top: 36px;
 }
 
 .about__description {
@@ -423,7 +412,6 @@ about
     background-color: #978574;
     content: '';
     transition: 0.3s ease-in-out;
-
 }
 
 .about__btn:hover::before {
@@ -457,13 +445,8 @@ about
         width: 54.3%;
     }
 
-    .about__nameKanji {
+    .about__name {
         font-size: 2.4rem;
-        margin-right: 8px;
-    }
-
-    .about__nameKana {
-        font-size: 1.4rem;
     }
 
     .about__btn {

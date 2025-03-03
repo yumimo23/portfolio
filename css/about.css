@@ -20,27 +20,15 @@ about
 }
 
 .about__name {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 40px;
-}
-
-.about__nameKanji {
     font-size: 2rem;
     line-height: 1;
-    margin-right: 6px;
-}
-
-.about__nameKana {
-    font-size: 1.1rem;
-    line-height: 1;
+    margin-top: 40px;
 }
 
 .about__description {
     font-size: 1.3rem;
     line-height: 1.8;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 /* about pc */
@@ -61,27 +49,17 @@ about
         width: 34%;
         margin: 0 0 0 100px;
     }
-
-    .about__name {
-        justify-content: flex-start;
-        margin-top: 0;
-    }
     
-    .about__nameKanji {
+    .about__name {
         font-size: 2.4rem;
         font-weight: 500;
-        margin-right: 12px;
-    }
-    
-    .about__nameKana {
-        font-size: 1.4em;
-        font-weight: 500;
+        margin-top: 0;
     }
     
     .about__description {
         font-size: 1.4rem;
         line-height: 1.8;
-        margin-top: 32px;
+        margin-top: 20px;
     }
 }
 
@@ -303,7 +281,14 @@ Btn
     padding: 56px 0;
     color: #F9F9F9;
     background-color: #978574;
+    border: 1px solid #978574;
     margin-bottom: 80px;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.aboutBtn:hover {
+    background-color: #F9F9F9;
+    color: #978574;
 }
 
 .works__btnFlex {
