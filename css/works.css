@@ -285,7 +285,7 @@ Btn
 .works__btnFlex {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .works__btnLeft {
@@ -309,6 +309,11 @@ Btn
     margin-left: 40px;
 }
 
+.works__btnRightAbout {
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
 .works__nextBtnArrow {
     margin-left: 12px;
 }
@@ -325,11 +330,19 @@ Btn
         width: 50%;
     }
 
+    .works__btnFlex {
+        align-items: baseline;
+    }
+    
     .works__btnTxt {
         font-size: 1.6rem;
     }
     
     .works__btnRight {
+        font-size: 2rem;
+    }
+
+    .works__btnRightAbout {
         font-size: 2rem;
     }
 }
