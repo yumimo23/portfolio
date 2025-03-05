@@ -10,10 +10,10 @@ body {
     'Open Sans',
     sans-serif;
     font-weight: 400;
-    color: #464646;
+    color: #646161;
     background-color: #F9F9F9;
     line-height: 1.5;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
 }
 
 img {
@@ -179,6 +179,8 @@ footer
 ================================== */
 .footer {
     padding: 80px 10.6% 40px;
+    padding: 80px 0 40px;
+
     position: relative;
 }
 
@@ -219,22 +221,18 @@ footer
 }
 
 .contact {
-    display: block;
-    width: 294px;
-    height: 72px;
-    border: 1px solid #CDB8A3;
     margin: 36px auto 0;
+    padding: 36px 0;
+    background-color: rgba(151, 133, 116, 0.3);
+    width: 100%;
 }
 
 .contact__title {
-    color: #CDB8A3;
     text-align: center;
     font-family: 'Aboreto';
     font-size: 2.4rem;
-    margin: -18px auto 0;
-    background-color: #F9F9F9;
-    width: 148px;
-    height: 28px;
+    line-height: 1;
+    margin: 0 auto;
 }
 
 .contact__txt {
@@ -243,27 +241,35 @@ footer
     margin-top: 8px;
 }
 
-.contact__address {
+.contact__btn {
     display: block;
-    font-family: 'Open Sans';
+    background-color: #646161;
     text-align: center;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 500;
+    color: #fff;
+    width: 295px;
+    height: 48px;
+    margin: 16px auto 0;
 }
 
-.contact__address:hover {
+.contact__btn:hover {
     opacity: 0.6;
+}
+
+.fotter__area {
+    padding: 0 10.6% ;
 }
 
 .nav__footerlist {
     display: flex;
     justify-content: center;
     gap: 0 30px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .nav__footeritem {
-    background-color: #CDB8A3;
+    background-color:#CDB8A3;
     box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
     width: 78px;
     height: 30px;
@@ -302,7 +308,7 @@ footer
 /* footer pc */
 @media screen and (min-width:769px) {
     .footer {
-        padding: 248px 12.5% 40px;
+        padding: 248px 0 40px;
     }
     
     .footer::before {
@@ -311,15 +317,11 @@ footer
     }
 
     .contact {
-        width: 475px;
-        height: 120px;
+        padding: 64px 0;
     }
     
     .contact__title {
         font-size: 3.6rem;
-        margin: -27px auto 0;
-        width: 210px;
-        height: 44px;
     }
     
     .contact__txt {
@@ -327,10 +329,15 @@ footer
         margin-top: 20px;
     }
     
-    .contact__address {
-        font-size: 2.4rem;
+    .contact__btn {
+        width: 310px;
+        margin: 36px auto 0;
     }
 
+    .fotter__area {
+        padding: 0 12.5%;
+    }
+    
     .nav__footerlist {
         justify-content: center;
         gap: 0 40px;
