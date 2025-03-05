@@ -178,16 +178,14 @@ header
 footer
 ================================== */
 .footer {
-    padding: 80px 10.6% 40px;
     padding: 80px 0 40px;
-
     position: relative;
 }
 
 .footer::before {
     content: '';
     display: block;
-    width: 1px;
+    width: 1.6px;
     height: 100px;
     background-color: #CDB8A3;
     margin: 0 auto;
@@ -224,12 +222,6 @@ footer
     margin: 36px auto 0;
     padding: 36px 0;
     background-color: rgba(151, 133, 116, 0.3);
-    /* background-image: url(../assets/images/4699073_l.jpg) ;
-    opacity: 0.8;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-
     width: 100%;
 }
 
@@ -314,7 +306,7 @@ footer
 /* footer pc */
 @media screen and (min-width:769px) {
     .footer {
-        padding: 248px 0 40px;
+        padding: 248px 12.5% 40px;
     }
     
     .footer::before {
@@ -343,7 +335,7 @@ footer
     }
 
     .fotter__area {
-        padding: 0 12.5%;
+        padding: 0;
     }
     
     .nav__footerlist {
