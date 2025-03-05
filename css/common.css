@@ -244,10 +244,15 @@ footer
 }
 
 .contact__address {
+    display: block;
     font-family: 'Open Sans';
     text-align: center;
     font-size: 1.4rem;
     font-weight: 300;
+}
+
+.contact__address:hover {
+    opacity: 0.6;
 }
 
 .nav__footerlist {
@@ -345,9 +350,3 @@ footer
         height: 56px;
     }
 }
-
-
-/* JSの考え方
-動きをビジュアルでイメージにして言葉にする、
-必要なパーツをcssで作る
-JSでcssのクラス */
