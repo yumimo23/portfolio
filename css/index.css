@@ -11,13 +11,13 @@ mainVisual
 .siteTitle {
     margin-top: 72px;
     padding: 16px 0 16px 10%;
-    background-color: rgba(151, 133, 116, 0.3);
+    background-color: #F2ECE8;
     width: 100%;
-    color: #403D3D;
+    color: #333333;
     font-family: 'Aboreto';
     font-size: 3.2rem;
     line-height: 1.3;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     position: relative;
 }
 
@@ -168,7 +168,7 @@ works
 
 .section__title::before {
     content: "";
-    border: solid 0.8px #403D3D;
+    border: solid 0.8px #646161;
     width: 32px;
     position: absolute;
     top: 13px;
@@ -183,7 +183,6 @@ works
 }
 
 .section__subtitle {
-    color: #5A5656;
     font-size: 1.1rem;
 }
 
@@ -210,10 +209,11 @@ works
     width: 50px;
     height: 18px;
     border-radius: 2px;
-    border: 1px solid #978574;
-    color: #978574;
+    border: 1.5px solid #C2B3B2;
+    color: #C2B3B2;
     text-align: center;
     font-size: 1.1rem;
+    font-weight: 500;
     line-height: 1.3;
     margin-top: 36px;
 }
@@ -246,7 +246,7 @@ works
 }
 
 .works__btn::after {
-    background-color: #5A5656;
+    background-color: #646161;
     bottom: -4px;
     content: "";
     width: 100%;
@@ -386,11 +386,11 @@ about
     display: block;
     width: 208px;
     height: 48px;
-    border: 1px solid #978574;
-    color: #978574;
+    border: 1.2px solid #C2B3B2;
+    color: #C2B3B2;
     text-align: center;
     font-family: 'Aboreto';
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 48px;
     margin: 36px auto 0;
     position: relative;
@@ -408,7 +408,7 @@ about
     z-index: -1;
     width: 0;
     height: 100%;
-    background-color: #978574;
+    background-color: #C2B3B2;
     content: '';
     transition: 0.3s ease-in-out;
 }

@@ -81,7 +81,7 @@ skills
     content: '';
     display: block;
     margin: 12px auto 0;
-    border-bottom: 1px solid #CDB8A3;
+    border-bottom: 1px solid #C2B3B2;
     width: 100%;
 }
 
@@ -116,8 +116,9 @@ content: "";
 }
 
 .skills__toolTitle {
-    color: #CDB8A3;
+    color: #C2B3B2;
     font-size: 1.2rem;
+    font-weight: 500;
     margin-top: 24px;
 }
 
@@ -200,7 +201,7 @@ strengths
     content: '';
     display: block;
     margin: 12px auto 0;
-    border-bottom: 1px solid #CDB8A3;
+    border-bottom: 1px solid #C2B3B2;
     width: 100%;
 }
 
@@ -214,7 +215,7 @@ strengths
 }
 
 .strengths__num {
-    color: #CDB8A3;
+    color: #C2B3B2;
     font-family: 'Aboreto';
     font-size: 2.4rem;
     line-height: 1;
@@ -280,15 +281,15 @@ Btn
     display: block;
     padding: 56px 0;
     color: #F9F9F9;
-    background-color: #978574;
-    border: 1px solid #978574;
+    background-color: #C2B3B2;
+    border: 1px solid #C2B3B2;
     margin-bottom: 80px;
     transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
 }
 
 .aboutBtn:hover {
     background-color: #F9F9F9;
-    color: #978574;
+    color: #C2B3B2;
 }
 
 .works__btnFlex {
