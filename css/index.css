@@ -9,7 +9,7 @@ mainVisual
 }
 
 .siteTitle {
-    margin-top: 100px;
+    margin-top: 72px;
     padding: 16px 0 16px 10%;
     background-color: rgba(151, 133, 116, 0.3);
     width: 100%;
@@ -97,7 +97,6 @@ mainVisual
         transform-origin: 0 100%;
     }
 }
-
 
 /* mainVisual pc */
 @media screen and (min-width:769px) {
@@ -247,7 +246,7 @@ works
 }
 
 .works__btn::after {
-    background-color: #403D3D;
+    background-color: #5A5656;
     bottom: -4px;
     content: "";
     width: 100%;
