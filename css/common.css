@@ -186,7 +186,7 @@ footer
 .footer::before {
     content: '';
     display: block;
-    width: 1.5px;
+    width: 1.2px;
     height: 100px;
     background-color: #646161;
     margin: 0 auto;
@@ -241,19 +241,29 @@ footer
 }
 
 .contact__btn {
-    display: block;
     background-color: #646161;
-    text-align: center;
+    border: 1px solid #646160;
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
     font-size: 1.4rem;
     font-weight: 500;
     color: #fff;
     width: 295px;
     height: 48px;
     margin: 16px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__btnIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
 }
 
 .contact__btn:hover {
-    opacity: 0.6;
+    background-color: #F9F9F9;
+    color: #646160;
 }
 
 .fotter__area {
@@ -299,8 +309,8 @@ footer
 
 .nav__fotterUpBtn {
     display: block;
-    width: 46px;
-    height: 46px;
+    width: 64px;
+    height: 64px;
 }
 
 
@@ -335,6 +345,11 @@ footer
         margin: 36px auto 0;
     }
 
+    .contact__btnIcon {
+        width: 30px;
+        height: 30px;
+    }    
+
     .fotter__area {
         padding: 0;
     }
@@ -357,7 +372,7 @@ footer
     }
     
     .nav__fotterUpBtn {
-        width: 56px;
-        height: 56px;
+        width: 72px;
+        height: 72px;
     }
 }

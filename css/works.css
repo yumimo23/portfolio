@@ -275,6 +275,7 @@ Btn
 .nextBtn {
     background-color: #C2B3B2;
     border: 1px solid #C2B3B2;
+    border-top: 1px solid #F9F9F9;
 }
 
 .nextBtn:hover {
@@ -337,6 +338,7 @@ Btn
 
     .nextBtn {
         border-left: 0.5px solid #F9F9F9;
+        border-top: 1px solid #C2B3B2;
     }
     
     .works__btnFlex {
