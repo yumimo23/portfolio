@@ -291,7 +291,6 @@ works
         padding: 0 10.1% 0;
     }
     
-    /* todo worksごとにテキストエリアのクラス名分ける？ */
     .works01,
     .works02 {
         display: flex;
