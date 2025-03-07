@@ -51,11 +51,11 @@
 
 @media screen and (min-width:769px) {
     .container {
-        padding: 80px 12.5% 100px;
+        padding: 130px 12.5% 100px;
     }
 
     .privacypolicy__title {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     
     .privacypolicy__subtitle {
