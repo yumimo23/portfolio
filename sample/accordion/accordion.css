@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.qa-7 {
+    max-width: 500px;
+
+    /* 2つのQAボックス同士の間の余白 */
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 2%), 0 2px 3px -2px rgba(0 0 0 / 5%);
+    background-color: #fff;
+}
+
+.qa-7 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em 1em 3em;
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* QとAはbeforeで入れる。ここで位置調整 */
+.qa-7 summary::before,
+.qa-7 p::before {
+    position: absolute;
+    left: 1em;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+/* Q */
+.qa-7 summary::before {
+    color: #75bbff;
+    content: "Q";
+}
+
+/* 下向きの＞
+＞の大きさ、動きの速さの設定 */
+.qa-7 summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #333333b3;
+    border-right: 3px solid #333333b3;
+    content: '';
+    transition: transform .5s;
+}
+
+/* openタグがついたときに回る */
+.qa-7[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.qa-7 p {
+    position: relative;
+
+    /* マイナス位置とopacity: 0;で隠す */
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: .3em 3em 1.5em;
+    color: #333;
+
+    /* ふわっと表示 */
+    transition: transform .5s, opacity .5s;
+}
+
+/* openタグがついたときにAが出てくる */
+.qa-7[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+/* A */
+.qa-7 p::before {
+    color: #ff8d8d;
+    line-height: 1.2;
+    content: "A";
+}
