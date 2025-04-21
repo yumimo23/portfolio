@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.container{
+    /* はみ出している箇所を隠す。これをしないと横スクロール発生する */
+    overflow: hidden;
+}
+
+.mainvisual{
+    /* 画面に対しての黄色背景の大きさ */
+    width:100%;
+    height:50vh;
+    /* min-height: 300px; でもできる */
+    
+    background:yellow;
+
+    /* 右下の弧　2000pxが弧の横幅、300pxが弧の高さ */
+    border-bottom-right-radius: 2000px 300px;
+    /* 左下の弧　2000pxが弧の横幅、300pxが弧の高さ */
+    border-bottom-left-radius: 2000px 300px;
+
+    /* 左右の円弧の「端の丸まった部分」を隠すため */
+    margin-left: -150px;
+    margin-right: -150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
