@@ -94,24 +94,16 @@ header
 
 .nav__listSP {
     width: 18%;
-    margin: 180px auto 0;
-}
-
-.nav__itemSP {
-    display: block;
-    margin-top: 60px;
-    text-align: center;
-    font-family: 'Aboreto';
-    font-size: 1.6rem;
-    line-height: 1;
-}
-
-.nav__itemSP:hover {
-    opacity: 0.6;
+    margin: 150px auto 0;
 }
 
 .nav__itemSP a {
     display: block;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Aboreto';
+    font-size: 1.6rem;
+    line-height: 1;
 }
 
 .nav.active {
@@ -159,7 +151,7 @@ header
         margin: 0;
     }
 
-    .nav__itemPC {
+    .nav__itemPC a {
         background-color: #C2B3B2;
         box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
         width: 100px;
@@ -171,7 +163,11 @@ header
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        padding: 0;
+    }
+
+    .nav__itemPC a:hover {
+        opacity: 0.6;
     }
 }
 
@@ -222,7 +218,7 @@ footer
 .contact {
     margin: 36px auto 0;
     padding: 36px 0;
-    background-color: #F2ECE8;
+    background-color: #F2EEE9;
     width: 100%;
 }
 
@@ -277,7 +273,7 @@ footer
     margin-top: 80px;
 }
 
-.nav__footeritem {
+.nav__footeritem a {
     background-color: #C2B3B2;
     box-shadow: 0px 2px 8px rgba(126, 123, 123, 0.25);
     width: 78px;
@@ -323,7 +319,7 @@ footer
 /* footer pc */
 @media screen and (min-width:769px) {
     .footer {
-        padding: 248px 12.5% 40px;
+        padding: 248px 0 40px;
     }
     
     .footer::before {
@@ -332,7 +328,7 @@ footer
     }
 
     .contact {
-        padding: 64px 0;
+        padding: 100px 0;
     }
     
     .contact__title {
@@ -366,7 +362,7 @@ footer
         margin-top: 104px;
     }
     
-    .nav__footeritem {
+    .nav__footeritem a{
         font-size: 1.4rem;
         width: 100px;
         height: 36px;
@@ -383,7 +379,6 @@ footer
         font-size: 1.2rem;
 
     }
-    
     .nav__fotterUpBtn {
         bottom: 32px;
         width: 72px;

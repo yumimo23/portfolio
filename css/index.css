@@ -11,7 +11,8 @@ mainVisual
 .siteTitle {
     margin-top: 72px;
     padding: 16px 0 16px 10%;
-    background-color: #F2ECE8;
+    /* background-color: #F2ECE8; */
+    background-color: #F2EEE9;
     width: 100%;
     color: #333333;
     font-family: 'Aboreto';
@@ -196,8 +197,10 @@ works
     margin-top: 40px;
 }
 
-.works__img {
+.works01__img,
+.works02__img {
     object-fit: contain;
+    box-shadow: 20px 20px 80px 10px #dddddd;
 }
 
 .works__txtArea {
@@ -215,7 +218,7 @@ works
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.3;
-    margin-top: 36px;
+    margin-top: 24px;
 }
 
 .works__title {
