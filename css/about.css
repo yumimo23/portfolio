@@ -5,8 +5,9 @@ about
 .page__title {
     padding: 80px 0 64px;
     text-align: center;
-    font-family: 'Aboreto';
+    font-family: 'Julius Sans One';
     font-size: 2.4rem;
+    letter-spacing: 0.08em;
 }
 
 .about__wrapper {
@@ -71,17 +72,17 @@ skills
 }
 
 .skills__title {
-    text-align: center;
-    font-family: 'Aboreto';
+    font-family: 'Julius Sans One';
     font-size: 2.4rem;
     line-height: 1;
+    letter-spacing: 0.08em;
 }
 
 .skills__title::after {
     content: '';
     display: block;
     margin: 12px auto 0;
-    border-bottom: 1px solid #C2B3B2;
+    border-bottom: 1px solid #B9A388;
     width: 100%;
 }
 
@@ -116,7 +117,7 @@ content: "";
 }
 
 .skills__toolTitle {
-    color: #C2B3B2;
+    color: #B9A388;
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 24px;
@@ -191,17 +192,17 @@ strengths
 }
 
 .strengths__title {
-    text-align: center;
-    font-family: 'Aboreto';
+    font-family: 'Julius Sans One';
     font-size: 2.4rem;
     line-height: 1;
+    letter-spacing: 0.08em;
 }
 
 .strengths__title::after {
     content: '';
     display: block;
     margin: 12px auto 0;
-    border-bottom: 1px solid #C2B3B2;
+    border-bottom: 1px solid #B9A388;
     width: 100%;
 }
 
@@ -215,8 +216,8 @@ strengths
 }
 
 .strengths__num {
-    color: #C2B3B2;
-    font-family: 'Aboreto';
+    color: #B9A388;
+    font-family: 'Julius Sans One';
     font-size: 2.4rem;
     line-height: 1;
     margin-right: 12px;
@@ -281,15 +282,15 @@ Btn
     display: block;
     padding: 56px 0;
     color: #F9F9F9;
-    background-color: #C2B3B2;
-    border: 1px solid #C2B3B2;
+    background-color: #D5C8B8;
+    border: 1px solid #D5C8B8;
     margin-bottom: 80px;
     transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
 }
 
 .aboutBtn:hover {
     background-color: #F9F9F9;
-    color: #C2B3B2;
+    color: #D5C8B8;
 }
 
 .works__btnFlex {
@@ -309,8 +310,13 @@ Btn
 
 /* btn pc */
 @media screen and (min-width:769px) {
+    .aboutBtn__wrapper {
+        padding: 0 12.5%;
+    }
+
     .aboutBtn {
         width: 540px;
+        width: 100%;
         margin: 100px auto 0;
     }
 

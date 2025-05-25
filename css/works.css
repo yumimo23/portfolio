@@ -5,8 +5,9 @@ works
 .page__title {
     padding: 80px 0 64px;
     text-align: center;
-    font-family: 'Aboreto';
+    font-family: 'Julius Sans One';
     font-size: 2.4rem;
+    letter-spacing: 0.08em;
 }
 
 .works__wrapper {
@@ -21,8 +22,8 @@ works
     width: 50px;
     height: 18px;
     border-radius: 2px;
-    border: 1.5px solid #C2B3B2;
-    color: #C2B3B2;
+    border: 1.5px solid #CED2DB;
+    color: #CED2DB;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
@@ -66,12 +67,12 @@ works
     content: '';
     display: block;
     margin: 30px auto 0;
-    border-bottom: 1px solid #C2B3B2;
+    border-bottom: 1px solid #D5C8B8;
     width: 100%;
 }
 
 .works__itemTitle {
-    color: #C2B3B2;
+    color: #D5C8B8;
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 30px;
@@ -97,7 +98,7 @@ works
 
 .works__scrollDown {
     text-align: center;
-    font-family: 'Aboreto';
+    font-family: 'Julius Sans One';
     font-size: 1.2rem;
     margin-right: 4px;
 }
@@ -263,24 +264,24 @@ Btn
 }
 
 .backBtn {
-    background-color: #CABDB0;
-    border: 1px solid #CABDB0;
+    background-color: #D5C8B8;
+    border: 1px solid #D5C8B8;
 }
 
 .backBtn:hover {
     background-color: #F9F9F9;
-    color: #CABDB0;
+    color: #D5C8B8;
 }
 
 .nextBtn {
-    background-color: #C2B3B2;
-    border: 1px solid #C2B3B2;
+    background-color: #B9A388;
+    border: 1px solid #B9A388;
     border-top: 1px solid #F9F9F9;
 }
 
 .nextBtn:hover {
     background-color: #F9F9F9;
-    color: #C2B3B2;
+    color: #B9A388;
 }
 
 .works__btnFlex {
@@ -299,7 +300,7 @@ Btn
 }
 
 .works__btnTxt {
-    font-family: 'Aboreto';
+    font-family: 'Julius Sans One';
     font-size: 1.4rem;
     line-height: 1;
 }
@@ -338,7 +339,7 @@ Btn
 
     .nextBtn {
         border-left: 0.5px solid #F9F9F9;
-        border-top: 1px solid #C2B3B2;
+        border-top: 1px solid #B9A388;
     }
     
     .works__btnFlex {
