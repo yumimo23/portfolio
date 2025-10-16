@@ -5,6 +5,7 @@ html {
 
 body {
     font-family:
+    YakuHanJP,
     'Zen Kaku Gothic New',
     'Julius Sans One',
     'Open Sans',
@@ -19,6 +20,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+p {
+    text-align: justify;
 }
 
 /* ===============================
